@@ -1,0 +1,20 @@
+package MatchMaker;
+
+import java.sql.Date;
+
+public class createAppointment {
+	
+	public void createAppt(AppointmentDetails apptDetails){
+		
+		Date apptDate = new java.util.Date(apptDetails.getApptYear(), apptDe, date, hrs, min)
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}

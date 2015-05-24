@@ -1,0 +1,30 @@
+package Database;
+import java.sql.*;
+
+public class JDBCConnection {
+	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+	static final String DB_URL = "jdbc:mysql://104.236.35.207:3306";
+	static final String USER = "ets";
+	static final String PASS = "ets";
+
+	public Connection connectionManager() {
+		Connection conn = null;
+		try {
+			conn = DriverManager.getConnection(DB_URL, USER, PASS);
+			System.out.println("Success");
+		} catch (SQLException e) {
+			System.out.println("Not Connected");
+			e.printStackTrace();
+		}
+		return conn;
+	}
+
+	public static void main(String [] Args) throws SQLException{
+		
+		JDBCConnection jcon = new JDBCConnection();
+		Connection conn = jcon.connectionManager();
+		conn.close();
+	}
+
+
+}

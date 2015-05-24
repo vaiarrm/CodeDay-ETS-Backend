@@ -1,0 +1,29 @@
+package MatchMaker;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+import Database.JDBCConnection;
+
+public class createAppointment {
+
+	public void createAppt(AppointmentDetails apptDetails){
+		
+		JDBCConnection jcon = new JDBCConnection();
+		Connection conn = jcon.connectionManager();
+		ResultSet rs 	= null;
+		Statement stmt  = null;
+		String maxVendorID		= "SELECT (MAX(VENDOR_ID) + 1) FROM VENDORS7";
+		rs = stmt.executeQuery(maxVendorID);
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}

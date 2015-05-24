@@ -1,0 +1,26 @@
+package MatchMaker;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.Statement;
+
+import Database.JDBCConnection;
+
+public class createAppointment {
+
+	public void createAppt(AppointmentDetails apptDetails){
+		
+		JDBCConnection jcon = new JDBCConnection();
+		Connection conn = jcon.connectionManager();
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}

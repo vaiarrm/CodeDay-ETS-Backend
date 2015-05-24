@@ -13,3 +13,8 @@ when weaving type org.eclipse.jdt.debug.ui.launchConfigurations.JavaAppletLaunch
 when weaving classes 
 when weaving 
  [Xlint:cantFindType]
+2015-05-23 14:40:22,752 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]

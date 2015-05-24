@@ -1,0 +1,16 @@
+package Database;
+import java.sql.*;
+
+
+import com.mysql.jdbc.Statement;
+
+public class JDBCConnection {
+	static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+	static final String DB_URL = "jdbc:mysql://104.236.35.207:3306";
+	Connection conn = null;
+	Statement stmt  = null;
+
+	conn = DriverManager.getConnection("jdbc:oracle:thin:@cdmoracledb.cti.depaul.edu:1521:def",args[0],args[1]);
+
+	
+}

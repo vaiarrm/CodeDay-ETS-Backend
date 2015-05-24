@@ -1,0 +1,53 @@
+package MatchMaker;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import Database.JDBCConnection;
+
+public class createAppointment {
+
+	public void createAppt(AppointmentDetails apptDetails){
+		
+		JDBCConnection jcon = new JDBCConnection();
+		Connection conn = jcon.connectionManager();
+		ResultSet rs 	= null;
+		Statement stmt  = null;
+		String maxApptID		= "SELECT (MAX(VENDOR_ID) + 1) FROM VENDORS7";
+		String 
+		try {
+			rs = stmt.executeQuery(maxApptID);
+			rs.next();
+			int ApptID  = rs.getInt(1) ;
+			String insertQuery = 	"INSERT INTO VENDORS7 VALUES ( "
+					+  ApptID +  " , " 
+					+ "\'" + vendorName 	+ "\'" +  " , " 
+					+ "\'" + vendorAdd1 	+ "\'" +  " , " 
+					+ "\'" + vendorAdd2 	+ "\'" +  " , " 
+					+ "\'" + vendorCity 	+ "\'" +  " , " 
+					+ "\'" + apptDetails.getApptResidentAddress() 	+ "\'" +  " , " 
+					+ "\'" + apptDetails.getApptResidentAddrCity() 	+ "\'" +  " , " 
+					+ "\'" + apptDetails.getApptResidentAddrState() 	+ "\'" +  " , " 
+					+ "\'" + apptDetails.getApptResidentZipCode() 	+ "\'" +  " , " 
+					+ "\'" + apptDetails.getApptResidentApptAddress()	+ "\'" +  " , "
+					+ "\'" + apptDetails.getApptResidentapptAddrCity()	+ "\'" +  " , "
+					+ "\'" + apptDetails.getApptResidentapptAddrState()	+ "\'" +  " , "
+					+ "\'" + apptDetails.getApptResidentApptZipCode()	+ "\'" +  " , " 
+					+ " )";
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+		
+	}
+	
+	
+
+}

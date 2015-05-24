@@ -1,0 +1,117 @@
+package MatchMaker;
+
+public class AppointmentDetails {
+	
+	private  int 	apptYear;
+	private  int  	apptMonth;
+	private  int  	apptDate;
+	private  int  	aaptHour;
+	private  int  	apptMin;
+
+	private  String apptResidentName;
+	private  String apptResidentAddress;
+	private  String apptResidentZipCode;
+	private  String apptResidentApptAddress;
+	private  String apptResidentApptZipCode;
+	private  String apptResidentPhoneNumber;
+	private  String apptResidentEmergencyContactInfo;
+
+	public int getApptYear() {
+		return apptYear;
+	}
+
+	public void setApptYear(int apptYear) {
+		this.apptYear = apptYear;
+	}
+
+	public int getApptMonth() {
+		return apptMonth;
+	}
+
+	public void setApptMonth(int apptMonth) {
+		this.apptMonth = apptMonth;
+	}
+
+	public int getApptDate() {
+		return apptDate;
+	}
+
+	public void setApptDate(int apptDate) {
+		this.apptDate = apptDate;
+	}
+
+	public int getAaptHour() {
+		return aaptHour;
+	}
+
+	public void setAaptHour(int aaptHour) {
+		this.aaptHour = aaptHour;
+	}
+
+	public int getApptMin() {
+		return apptMin;
+	}
+
+	public void setApptMin(int apptMin) {
+		this.apptMin = apptMin;
+	}
+
+	public String getApptResidentName() {
+		return apptResidentName;
+	}
+
+	public void setApptResidentName(String apptResidentName) {
+		this.apptResidentName = apptResidentName;
+	}
+
+	public String getApptResidentAddress() {
+		return apptResidentAddress;
+	}
+
+	public void setApptResidentAddress(String apptResidentAddress) {
+		this.apptResidentAddress = apptResidentAddress;
+	}
+
+	public String getApptResidentZipCode() {
+		return apptResidentZipCode;
+	}
+
+	public void setApptResidentZipCode(String apptResidentZipCode) {
+		this.apptResidentZipCode = apptResidentZipCode;
+	}
+
+	public String getApptResidentApptAddress() {
+		return apptResidentApptAddress;
+	}
+
+	public void setApptResidentApptAddress(String apptResidentApptAddress) {
+		this.apptResidentApptAddress = apptResidentApptAddress;
+	}
+
+	public String getApptResidentApptZipCode() {
+		return apptResidentApptZipCode;
+	}
+
+	public void setApptResidentApptZipCode(String apptResidentApptZipCode) {
+		this.apptResidentApptZipCode = apptResidentApptZipCode;
+	}
+
+	public String getApptResidentPhoneNumber() {
+		return apptResidentPhoneNumber;
+	}
+
+	public void setApptResidentPhoneNumber(String apptResidentPhoneNumber) {
+		this.apptResidentPhoneNumber = apptResidentPhoneNumber;
+	}
+
+	public String getApptResidentEmergencyContactInfo() {
+		return apptResidentEmergencyContactInfo;
+	}
+
+	public void setApptResidentEmergencyContactInfo(
+			String apptResidentEmergencyContactInfo) {
+		this.apptResidentEmergencyContactInfo = apptResidentEmergencyContactInfo;
+	}
+
+
+}

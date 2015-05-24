@@ -1,0 +1,19 @@
+package MatchMaker;
+
+public class GetAppointmentDetails {
+
+	private  int 	apptYear;
+	private  int  	apptMonth;
+	private  int  	apptDate;
+	private  int  	aaptHour;
+	private  int  	apptMin;
+
+	private  String apptResidentName;
+	private  String apptResidentAddress;
+	private  String apptResidentPhoneNumber;
+	private  String
+
+
+
+
+}

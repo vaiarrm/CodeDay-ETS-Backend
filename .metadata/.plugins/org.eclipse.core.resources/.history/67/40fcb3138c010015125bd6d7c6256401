@@ -1,0 +1,14 @@
+package MatchMaker;
+
+public class GetAppointmentDetails {
+	
+	private static int 	apptYear;
+	private static int  apptMonth;
+	private static int  apptDate;
+	private static int  aaptHour;
+	private static int  apptMin;
+	
+	
+	
+
+}

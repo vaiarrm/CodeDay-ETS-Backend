@@ -1,0 +1,13 @@
+package Resident;
+
+public class ResidentInfo {
+	private String ResidentFirstName;
+	private String ResidentLastName;
+	private String ResidentPhoneNumber;
+	private String ResidentContactNumber;
+	
+	
+	
+	
+	
+}

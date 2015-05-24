@@ -1,0 +1,17 @@
+package Database;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+
+import com.mysql.jdbc.Statement;
+
+public class JDBCConnection {
+
+	Connection conn = null;
+	ResultSet rs 	= null;
+	Statement stmt  = null;
+	
+	
+	
+	
+}
